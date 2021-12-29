@@ -41,7 +41,7 @@ const TransactionCard = ({
             rel="noopener noreferrer"
           >
             <p className="text-white text-base">
-              From: {shortenAddress(addressTo)}
+              To: {shortenAddress(addressTo)}
             </p>
           </a>
           <p className="text-white text-base">Amount: {amount} ETH</p>
